@@ -1,3 +1,5 @@
+use engine::main_loop;
+
 fn main() {
-    println!("Hello, world!");
+    main_loop::run().unwrap();
 }
